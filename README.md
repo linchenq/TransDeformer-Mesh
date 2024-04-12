@@ -1,7 +1,9 @@
 # TransDeformer-Mesh
+
 <p align="center">
     <img src="./figures/transdeformer_framework.jpg"></img>
 </p>
+
 This is the source code repository for our paper [**Attention-based Shape-Deformation Networks for Artifact-Free Geometry Reconstruction of Lumbar Spine from MR Images**](https://arxiv.org/abs/2404.00231). Here, we propose [**TransDeformer**](https://github.com/linchenq/TransDeformer-Mesh/blob/main/models/transDeformer.py), a novel attention-based deep learning approach that reconstructs the geometry of the lumbar spine with high spatial accuracy and mesh correspondence across patients. Also, [**UNet-DeformSA**](https://github.com/linchenq/TransDeformer-Mesh/blob/main/models/uNetDeformSA.py) is presented for geometry reconstruction and a variant of TransDeformer, named [**ShapeErrorEstimation**](https://github.com/linchenq/TransDeformer-Mesh/blob/main/models/shapeErrorEst.py), is presented for error estimation.
 
 ## Abstract
@@ -23,9 +25,11 @@ pip install -r requirements.txt
 We present a toy dataset and related jupyter notebook to show the details of the evaluation. Google Colab is supported to run this notebook.
 
 ## Sample Results
+
 <p align="center">
-    <img src="./figures/evaluation-comparsion.jpg" width="500px"></img>
+    <img src="./figures/evaluation-comparsion.jpg"></img>
 </p>
+
 ## Citation
 ```
 @misc{qian2024attentionbased,
