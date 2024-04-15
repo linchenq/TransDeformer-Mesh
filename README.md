@@ -22,7 +22,10 @@ pip install -r requirements.txt
 
 ## Toy Dataset and Evaluation
 
-We present a toy dataset and related jupyter notebook to show the details of the evaluation. Google Colab is supported to run this notebook.
+We present a toy dataset and related jupyter notebook to show the details of the evaluation.  
+Google Colab is supported to run this notebook. Considering the computing platform, we initialize the ```device``` in Section `Common preparation` but don't apply our inference process (including models and toy dataset) on any GPU or TPU. It's easier to re-run this [Colab Notebook Version](https://colab.research.google.com/github/linchenq/TransDeformer-Mesh/blob/main/infer_toy_colab.ipynb). This Colab allows you to edit the files from the repository directly in the Colab UI and annotates Colab cells that walk you through the code step by step. Below is the link for better visualization.
+
+https://colab.research.google.com/github/linchenq/TransDeformer-Mesh/blob/main/infer_toy_colab.ipynb
 
 ## Sample Results
 
