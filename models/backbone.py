@@ -102,10 +102,8 @@ class MergeLayer(nn.Module):
         # skip.shape (B, C2, H, W), C2 = skip_channels
         x = self.up(x) #(B, C1, H, W)
         x = self.norm1(x)
-        skip = self.norm2(skip)
         x = self.proj1(x)
-        skip = self.proj2(skip)
-        y = x + 0 * skip
+        y = x
         y = self.out(y)
         # y.shape (B, C, H, W), C = out_channels
         return y
