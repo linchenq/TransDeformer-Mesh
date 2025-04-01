@@ -27,6 +27,9 @@ Google Colab is supported to run this notebook. Considering the computing platfo
 
 https://colab.research.google.com/github/linchenq/TransDeformer-Mesh/blob/main/infer_toy_colab.ipynb
 
+## Explanation on Data Annotation
+We upload the tutorial for lumbar spine geometry initial annotation by 3D Slicer [Data Annotation Tutorial Video](https://www.youtube.com/watch?v=GIA2YJbujxo)
+
 ## Sample Results
 
 <p align="center">
