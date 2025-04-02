@@ -30,6 +30,10 @@ https://colab.research.google.com/github/linchenq/TransDeformer-Mesh/blob/main/i
 ## Explanation on Data Annotation
 We upload the tutorial for lumbar spine geometry initial annotation by 3D Slicer [Data Annotation Tutorial Video](https://www.youtube.com/watch?v=GIA2YJbujxo)
 
+## Dataset Link
+* [SSMSpine Dataset](https://github.com/jiasongchen/SSMSpine)
+* [MRSpineSeg](https://github.com/pangshumao/SpineParseNet) and [MRSpineSeg Additional](https://github.com/pangshumao/DGMSNet)
+
 ## Sample Results
 
 <p align="center">
